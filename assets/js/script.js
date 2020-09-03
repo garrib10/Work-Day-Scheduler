@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $("#currentDay").text(moment().format());
+    console.log("moment"().format());
+
     $(".saveBtn").on("click", function () {
         var activity = $(this).siblings(".description").val();
         console.log(activity)
