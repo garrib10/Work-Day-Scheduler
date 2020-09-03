@@ -16,13 +16,13 @@ $(document).ready(function () {
             console.log(ourHour)
 
             //if statements, addClass method
-            if (ourHour === time) {
+            if (ourHour === currentHour) {
                 $(this).addClass("bg-red");
             }
-            if (ourHour === pastHour) {
+            if (ourHour > pastHour) {
                 $(this).addClass("bg-gray");
             }
-            if (ourHour === futureHour) {
+            if (ourHour < futureHour) {
                 $(this).addClass("bg-green");
             }
         })
@@ -44,17 +44,4 @@ $(document).ready(function () {
     $("#hour-15 .description").val(localStorage.getItem("hour-15"))
     $("#hour-16 .description").val(localStorage.getItem("hour-16"))
     $("#hour-17 .description").val(localStorage.getItem("hour-17"))
-
-
-
-
-
-
-
-
-
-
-
-
-
 })
