@@ -19,7 +19,15 @@ $(document).ready(function () {
             console.log(ourHour)
 
             //if statements, addClass method
-   
+            if (ourHour === currentHour) {
+                $(this).addClass("bg-red");
+            }
+            if (ourHour === pastHour) {
+                $(this).addClass("bg-gray");
+            }
+            if (ourHour === futureHour) {
+                $(this).addClass("bg-green");
+            }
         })
 
 
