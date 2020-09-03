@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#currentDay").text(moment().format());
+    $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
     console.log("moment"().format());
 
     $(".saveBtn").on("click", function () {
