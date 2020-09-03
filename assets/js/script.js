@@ -8,9 +8,6 @@ $(document).ready(function () {
         console.log(localStorage)
     })
     function hourColor() {
-
-
-
         var currentHour = moment().hours();
         console.log(currentHour)
 
@@ -19,7 +16,7 @@ $(document).ready(function () {
             console.log(ourHour)
 
             //if statements, addClass method
-            if (ourHour === currentHour) {
+            if (ourHour === time) {
                 $(this).addClass("bg-red");
             }
             if (ourHour === pastHour) {
