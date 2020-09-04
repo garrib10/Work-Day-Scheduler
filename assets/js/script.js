@@ -2,6 +2,7 @@ $(document).ready(function () {
     $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
     console.log("moment"().format());
 
+    // Save Button 
     $(".saveBtn").on("click", function () {
         var activity = $(this).siblings(".description").val();
         console.log(activity)
@@ -17,10 +18,20 @@ $(document).ready(function () {
         $(".timeblock").each(function () {
             var ourHour = parseInt($(this).attr("id").split("-")[1]);
             console.log(ourHour)
-
+          for (let i = 9; i < 17; i++) {
+            if (ourHour === currentHour) {
+                $(time).addClass("bg-red");
+            }
+            if (ourHour > pastHour) {
+                $(this).addClass("bg-gray");
+            }
+            if (ourHour < futureHour) {
+                $(this).addClass("bg-green");
+              
+          }
             //if statements, addClass method
             if (ourHour === currentHour) {
-                $(this).addClass("bg-red");
+                $(time).addClass("bg-red");
             }
             if (ourHour > pastHour) {
                 $(this).addClass("bg-gray");
@@ -28,6 +39,7 @@ $(document).ready(function () {
             if (ourHour < futureHour) {
                 $(this).addClass("bg-green");
             }
+        }
         })
 
 
