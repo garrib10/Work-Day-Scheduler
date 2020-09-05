@@ -16,20 +16,20 @@ $(document).ready(function () {
         var currentHour = moment().hours();
         console.log(currentHour)
 
-        $(".timeblock").each(function () {
+        $('.timeblock').each(function () {
             var ourHour = parseInt($(this).attr("id").split("-")[1]);
-            console.log(ourHour)
+            console.log(ourHour);
 
             //if statements, addClass method (Need to be fixed)  
 
             if (ourHour < currentHour) {
-                $(this).addClass("past");
+                $("textarea").addClass("past");
             }
             if (ourHour === currentHour) {
-                $(this).addClass("present");
+                $("textarea").addClass("present");
             }
             if (ourHour > currentHour) {
-                $(this).addClass("future");
+                $("textarea").addClass("future");
             }
 
 
