@@ -1,7 +1,7 @@
 $(document).ready(function () {
     //If I take currentDay out Save Button Works, try to change this 
     $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-    console.log("currentDay").format();
+    console.log("#currentDay");
 
     // Save Button 
     $(".saveBtn").on("click", function () {
@@ -20,7 +20,8 @@ $(document).ready(function () {
             var ourHour = parseInt($(this).attr("id").split("-")[1]);
             console.log(ourHour)
 
-            //if statements, addClass method (Need to be fixed)
+            //if statements, addClass method (Need to be fixed)  
+            
             if (ourHour > pastHour) {
                 $(this).addClass("past");
             }
