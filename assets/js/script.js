@@ -1,7 +1,8 @@
 $(document).ready(function () {
+    //If I take currentDay out Save Button Works, try to change this 
     $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-    console.log("moment"().format());
-    
+    console.log("#currentDay").format();
+
     // Save Button 
     $(".saveBtn").on("click", function () {
         var activity = $(this).siblings(".description").val();
@@ -21,8 +22,6 @@ $(document).ready(function () {
 
             //if statements, addClass method
             
-            
-
         })
 
 
@@ -33,13 +32,13 @@ $(document).ready(function () {
     hourColor()
 
 
-    $("#hour-9 .description").val(localStorage.getItem("hour-9"))
-    $("#hour-10 .description").val(localStorage.getItem("hour-10"))
-    $("#hour-11 .description").val(localStorage.getItem("hour-11"))
-    $("#hour-12 .description").val(localStorage.getItem("hour-12"))
-    $("#hour-13 .description").val(localStorage.getItem("hour-13"))
-    $("#hour-14 .description").val(localStorage.getItem("hour-14"))
-    $("#hour-15 .description").val(localStorage.getItem("hour-15"))
-    $("#hour-16 .description").val(localStorage.getItem("hour-16"))
+    $("#hour-9 .description").val(localStorage.getItem("hour-9"));
+    $("#hour-10 .description").val(localStorage.getItem("hour-10"));
+    $("#hour-11 .description").val(localStorage.getItem("hour-11"));
+    $("#hour-12 .description").val(localStorage.getItem("hour-12"));
+    $("#hour-13 .description").val(localStorage.getItem("hour-13"));
+    $("#hour-14 .description").val(localStorage.getItem("hour-14"));
+    $("#hour-15 .description").val(localStorage.getItem("hour-15"));
+    $("#hour-16 .description").val(localStorage.getItem("hour-16"));
     $("#hour-17 .description").val(localStorage.getItem("hour-17"))
 })
