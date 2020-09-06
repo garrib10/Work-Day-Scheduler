@@ -1,13 +1,7 @@
 ## [Work Day Scheduler Link ](https://garrib10.github.io/Work-Day-Scheduler/.)
 
 05 Third-Party APIs: Work Day Scheduler
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-You'll need to use the Moment.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-User Story
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+For this homework assignment, we were told to make a Work Day Scheduler using third-party APIs. We were given the basic structure of HTML,CSS,and Javascript files  and were told to add moment.js () to it. With this, we were able to make a Work Day Scheduler for the current day and input tasks into the text area and save it with the save buttons that was provided. For this assignment, the criteria for the this assignment is the following: 
 
 Acceptance Criteria
 - GIVEN I am using a daily planner to create a schedule
