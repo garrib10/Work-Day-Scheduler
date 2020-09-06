@@ -14,22 +14,22 @@ $(document).ready(function () {
     })
     function hourColor() {
         var currentHour = moment().hours();
-        console.log(currentHour)
+        console.log(currentHour);
 
-        $('.timeblock').each(function () {
+        $(".timeblock").each(function () {
             var ourHour = parseInt($(this).attr("id").split("-")[1]);
             console.log(ourHour);
 
             //if statements, addClass method (Need to be fixed)  
 
             if (ourHour < currentHour) {
-                $("textarea").addClass("past");
+                $(this).addClass("past");
             }
             if (ourHour === currentHour) {
-                $("textarea").addClass("present");
+                $(this).addClass("present");
             }
             if (ourHour > currentHour) {
-                $("textarea").addClass("future");
+                $(this).addClass("future");
             }
 
 
