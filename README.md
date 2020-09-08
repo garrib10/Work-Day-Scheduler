@@ -17,3 +17,5 @@ Acceptance Criteria
 - THEN the text for that event is saved in local storage
 - WHEN I refresh the page
 - THEN the saved events persist
+
+<img width="1279" alt="Screen Shot 2020-09-08 at 2 00 43 PM" src="https://user-images.githubusercontent.com/68867054/92511945-0d82da80-f1dc-11ea-9fd8-6a4281469c62.png">
