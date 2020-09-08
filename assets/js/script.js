@@ -23,13 +23,16 @@ $(document).ready(function () {
             //if statements, addClass method (Need to be fixed)  
 
             if (ourHour < currentHour) {
-                $(this).addClass("past");
+                $(this).children(".description").addClass("past");
             }
             if (ourHour === currentHour) {
-                $(this).addClass("present");
+                $(this).children(".description").addClass("present");
+                $(this).removeClass("past");
             }
             if (ourHour > currentHour) {
-                $(this).addClass("future");
+                $(this).children(".description").addClass("future");
+                $(this).removeClass("past");
+                $(this).removeClass("present");
             }
 
 
