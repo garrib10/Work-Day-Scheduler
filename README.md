@@ -1,6 +1,7 @@
 ## [Work Day Scheduler Link ](https://garrib10.github.io/Work-Day-Scheduler/.)
 
 05 Third-Party APIs: Work Day Scheduler
+<br>
 For this homework assignment, we were told to make a Work Day Scheduler using third-party APIs. We were given the basic structure of HTML,CSS,and Javascript files  and were told to add moment.js () to it. With this, we were able to make a Work Day Scheduler for the current day and input tasks into the text area and save it with the save buttons that was provided. For this assignment, the criteria for the this assignment is the following: 
 
 Acceptance Criteria
@@ -17,3 +18,5 @@ Acceptance Criteria
 - THEN the text for that event is saved in local storage
 - WHEN I refresh the page
 - THEN the saved events persist
+
+
