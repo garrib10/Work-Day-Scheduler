@@ -20,3 +20,5 @@ Acceptance Criteria
 Link to Deployed Site: [Work Day Scheduler Link ](https://garrib10.github.io/Work-Day-Scheduler/.)
 
 <img width="1279" alt="Screen Shot 2020-09-08 at 2 00 43 PM" src="https://user-images.githubusercontent.com/68867054/92511945-0d82da80-f1dc-11ea-9fd8-6a4281469c62.png">
+
+<img width="1434" alt="Screen Shot 2020-09-27 at 6 30 08 PM" src="https://user-images.githubusercontent.com/68867054/94377442-9d3aeb00-00ef-11eb-95eb-3ddd0b5eebbe.png">
